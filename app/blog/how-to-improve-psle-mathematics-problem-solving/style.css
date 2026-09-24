@@ -1,0 +1,949 @@
+/*==================================================
+ARTICLE PAGE
+==================================================*/
+
+.article-page{
+
+    background:#FCFEFF;
+
+    overflow:hidden;
+
+}
+
+
+
+/*==================================================
+CONTAINER
+==================================================*/
+
+.article-container{
+
+    width:min(900px,92%);
+
+    margin:0 auto;
+
+}
+
+
+
+/*==================================================
+HERO
+==================================================*/
+
+.article-hero{
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:180px 0 90px;
+
+    background:
+
+    linear-gradient(
+
+        180deg,
+
+        #F6FBFF 0%,
+
+        #FFFFFF 100%
+
+    );
+
+}
+
+
+
+/*==================================================
+BACKGROUND DECORATION
+==================================================*/
+
+.article-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:-260px;
+
+    right:-220px;
+
+    width:760px;
+
+    height:760px;
+
+    border-radius:50%;
+
+    background:
+
+    radial-gradient(
+
+        rgba(45,130,205,.10),
+
+        transparent 72%
+
+    );
+
+}
+
+.article-hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:-150px;
+
+    bottom:-220px;
+
+    width:420px;
+
+    height:420px;
+
+    border-radius:50%;
+
+    background:
+
+    radial-gradient(
+
+        rgba(45,130,205,.08),
+
+        transparent 72%
+
+    );
+
+}
+
+
+
+/*==================================================
+CATEGORY
+==================================================*/
+
+.article-category{
+
+    display:inline-block;
+
+    padding:10px 18px;
+
+    border-radius:999px;
+
+    background:#EAF5FF;
+
+    color:#2D82CD;
+
+    font-size:.82rem;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+}
+
+
+
+/*==================================================
+TITLE
+==================================================*/
+
+.article-hero h1{
+
+    margin:30px 0;
+
+    font-size:clamp(3.8rem,7vw,5.8rem);
+
+    line-height:.95;
+
+    letter-spacing:-3px;
+
+    color:#46A1EB;
+
+}
+
+.article-hero h1 span{
+
+    color:#2D82CD;
+
+}
+
+
+
+/*==================================================
+INTRO
+==================================================*/
+
+.article-intro{
+
+    max-width:760px;
+
+    font-size:1.2rem;
+
+    line-height:2;
+
+    color:#64798D;
+
+}
+
+
+
+/*==================================================
+META
+==================================================*/
+
+.article-meta{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:28px;
+
+    margin-top:45px;
+
+    color:#91A4B6;
+
+    font-size:.95rem;
+
+}
+
+/*==================================================
+FEATURE IMAGE
+==================================================*/
+
+.article-image-section{
+
+    margin-top:-30px;
+
+    margin-bottom:90px;
+
+}
+
+.article-image{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:34px;
+
+    box-shadow:
+
+        0 35px 90px rgba(15,55,90,.15);
+
+}
+
+
+
+/*==================================================
+ARTICLE
+==================================================*/
+
+.article-content-section{
+
+    padding-bottom:140px;
+
+}
+
+
+
+/*==================================================
+TYPOGRAPHY
+==================================================*/
+
+.article-content{
+
+    color:#4F6478;
+
+    font-size:1.1rem;
+
+    line-height:2;
+
+}
+
+.article-content>*{
+
+    margin-bottom:32px;
+
+}
+
+
+
+/*==================================================
+HEADINGS
+==================================================*/
+
+.article-content h2{
+
+    margin-top:90px;
+
+    margin-bottom:26px;
+
+    font-size:2.4rem;
+
+    line-height:1.2;
+
+    color:#46A1EB;
+
+}
+
+.article-content h3{
+
+    margin-bottom:18px;
+
+    font-size:1.35rem;
+
+    color:#46A1EB;
+
+}
+
+
+
+/*==================================================
+PARAGRAPHS
+==================================================*/
+
+.article-content p{
+
+    color:#64798D;
+
+    line-height:2;
+
+}
+
+
+
+/*==================================================
+LISTS
+==================================================*/
+
+.article-content ul{
+
+    margin:10px 0 35px 28px;
+
+    padding:0;
+
+}
+
+.article-content li{
+
+    margin-bottom:16px;
+
+    color:#64798D;
+
+    line-height:1.9;
+
+}
+
+
+
+/*==================================================
+STRONG
+==================================================*/
+
+.article-content strong{
+
+    color:#46A1EB;
+
+    font-weight:700;
+
+}
+
+
+
+/*==================================================
+LINKS
+==================================================*/
+
+.article-content a{
+
+    color:#2D82CD;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.article-content a:hover{
+
+    color:#173A59;
+
+}
+
+
+
+/*==================================================
+HORIZONTAL SPACING
+==================================================*/
+
+.article-content h2:not(:first-child){
+
+    padding-top:10px;
+
+}
+
+/*==================================================
+HIGHLIGHT / TAKEAWAYS
+==================================================*/
+
+.article-highlight{
+
+    margin:60px 0;
+
+    padding:38px 42px;
+
+    border-radius:28px;
+
+    background:linear-gradient(
+        135deg,
+        #F4FAFF,
+        #ECF7FF
+    );
+
+    border:1px solid #D8EBFB;
+
+    box-shadow:
+        0 18px 45px rgba(45,130,205,.08);
+
+}
+
+.article-highlight h3{
+
+    margin-bottom:22px;
+
+    color:#46A1EB;
+
+}
+
+.article-highlight ul{
+
+    margin:0;
+
+    padding-left:24px;
+
+}
+
+.article-highlight li{
+
+    margin-bottom:14px;
+
+}
+
+
+
+/*==================================================
+TIP BOX
+==================================================*/
+
+.article-tip{
+
+    margin:55px 0;
+
+    padding:34px 38px;
+
+    border-left:6px solid #2D82CD;
+
+    border-radius:24px;
+
+    background:#F8FCFF;
+
+    box-shadow:
+        0 16px 40px rgba(20,80,120,.06);
+
+}
+
+.article-tip h3{
+
+    color:#2D82CD;
+
+}
+
+
+
+/*==================================================
+NOTE BOX
+==================================================*/
+
+.article-note{
+
+    margin:55px 0;
+
+    padding:34px 38px;
+
+    border-left:6px solid #49B675;
+
+    border-radius:24px;
+
+    background:#F6FFF9;
+
+    box-shadow:
+        0 16px 40px rgba(73,182,117,.08);
+
+}
+
+.article-note h3{
+
+    color:#2C8C56;
+
+}
+
+
+
+/*==================================================
+SUMMARY BOX
+==================================================*/
+
+.article-summary{
+
+    margin:70px 0;
+
+    padding:40px;
+
+    border-radius:28px;
+
+    background:#46A1EB;
+
+    color:white;
+
+}
+
+.article-summary h3{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.article-summary ul{
+
+    margin:0;
+
+    padding-left:22px;
+
+}
+
+.article-summary li{
+
+    color:#E8F4FF;
+
+    margin-bottom:16px;
+
+}
+
+
+
+/*==================================================
+CONCLUSION
+==================================================*/
+
+.article-conclusion{
+
+    margin:70px 0;
+
+    padding:45px;
+
+    border-radius:30px;
+
+    background:linear-gradient(
+        135deg,
+        #2D82CD,
+        #56AFFF
+    );
+
+    color:white;
+
+    box-shadow:
+        0 28px 70px rgba(45,130,205,.25);
+
+}
+
+.article-conclusion h3{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.article-conclusion p{
+
+    color:rgba(255,255,255,.94);
+
+}
+
+
+
+/*==================================================
+BLOCKQUOTE
+==================================================*/
+
+.article-page blockquote{
+
+    position:relative;
+
+    margin:70px 0;
+
+    padding:28px 40px;
+
+    font-size:1.45rem;
+
+    font-style:italic;
+
+    line-height:1.7;
+
+    color:#46A1EB;
+
+    border-left:5px solid #2D82CD;
+
+    background:#F8FBFF;
+
+    border-radius:22px;
+
+}
+
+.article-page blockquote::before{
+
+    content:"“";
+
+    position:absolute;
+
+    top:-18px;
+
+    left:18px;
+
+    font-size:5rem;
+
+    color:#2D82CD20;
+
+    font-style:normal;
+
+    font-family:Georgia, serif;
+
+}
+
+/*==================================================
+HIGHLIGHT / TAKEAWAYS
+==================================================*/
+
+.article-highlight{
+
+    margin:60px 0;
+
+    padding:38px 42px;
+
+    border-radius:28px;
+
+    background:linear-gradient(
+        135deg,
+        #F4FAFF,
+        #ECF7FF
+    );
+
+    border:1px solid #D8EBFB;
+
+    box-shadow:
+        0 18px 45px rgba(45,130,205,.08);
+
+}
+
+.article-highlight h3{
+
+    margin-bottom:22px;
+
+    color:#46A1EB;
+
+}
+
+.article-highlight ul{
+
+    margin:0;
+
+    padding-left:24px;
+
+}
+
+.article-highlight li{
+
+    margin-bottom:14px;
+
+}
+
+
+
+/*==================================================
+TIP BOX
+==================================================*/
+
+.article-tip{
+
+    margin:55px 0;
+
+    padding:34px 38px;
+
+    border-left:6px solid #2D82CD;
+
+    border-radius:24px;
+
+    background:#F8FCFF;
+
+    box-shadow:
+        0 16px 40px rgba(20,80,120,.06);
+
+}
+
+.article-tip h3{
+
+    color:#2D82CD;
+
+}
+
+
+
+/*==================================================
+NOTE BOX
+==================================================*/
+
+.article-note{
+
+    margin:55px 0;
+
+    padding:34px 38px;
+
+    border-left:6px solid #49B675;
+
+    border-radius:24px;
+
+    background:#F6FFF9;
+
+    box-shadow:
+        0 16px 40px rgba(73,182,117,.08);
+
+}
+
+.article-note h3{
+
+    color:#2C8C56;
+
+}
+
+
+
+/*==================================================
+SUMMARY BOX
+==================================================*/
+
+.article-summary{
+
+    margin:70px 0;
+
+    padding:40px;
+
+    border-radius:28px;
+
+    background:#46A1EB;
+
+    color:white;
+
+}
+
+.article-summary h3{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.article-summary ul{
+
+    margin:0;
+
+    padding-left:22px;
+
+}
+
+.article-summary li{
+
+    color:#E8F4FF;
+
+    margin-bottom:16px;
+
+}
+
+
+
+/*==================================================
+CONCLUSION
+==================================================*/
+
+.article-conclusion{
+
+    margin:70px 0;
+
+    padding:45px;
+
+    border-radius:30px;
+
+    background:linear-gradient(
+        135deg,
+        #2D82CD,
+        #56AFFF
+    );
+
+    color:white;
+
+    box-shadow:
+        0 28px 70px rgba(45,130,205,.25);
+
+}
+
+.article-conclusion h3{
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.article-conclusion p{
+
+    color:rgba(255,255,255,.94);
+
+}
+
+
+
+/*==================================================
+BLOCKQUOTE
+==================================================*/
+
+.article-page blockquote{
+
+    position:relative;
+
+    margin:70px 0;
+
+    padding:28px 40px;
+
+    font-size:1.45rem;
+
+    font-style:italic;
+
+    line-height:1.7;
+
+    color:#173A59;
+
+    border-left:5px solid #2D82CD;
+
+    background:#F8FBFF;
+
+    border-radius:22px;
+
+}
+
+.article-page blockquote::before{
+
+    content:"“";
+
+    position:absolute;
+
+    top:-18px;
+
+    left:18px;
+
+    font-size:5rem;
+
+    color:#2D82CD20;
+
+    font-style:normal;
+
+    font-family:Georgia, serif;
+
+}
+
+@media(max-width:768px){
+    .article-container{
+        width:calc(100% - 32px);
+    }
+
+    .article-hero{
+        padding:128px 0 56px;
+    }
+
+    .article-hero h1{
+        margin:20px 0;
+        font-size:clamp(2.3rem,11vw,3.15rem);
+        line-height:1.05;
+        letter-spacing:-1.5px;
+        overflow-wrap:anywhere;
+    }
+
+    .article-intro{
+        font-size:16px;
+        line-height:1.65;
+    }
+
+    .article-meta{
+        gap:10px 18px;
+        margin-top:28px;
+        font-size:.85rem;
+    }
+
+    .article-image-section{
+        margin-top:-18px;
+        margin-bottom:52px;
+    }
+
+    .article-image{
+        border-radius:22px;
+    }
+
+    .article-content-section{
+        padding-bottom:80px;
+    }
+
+    .article-content{
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    .article-content > *{
+        margin-bottom:24px;
+    }
+
+    .article-content h2,
+    .article-content h2:not(:first-child){
+        margin-top:52px;
+        margin-bottom:18px;
+        font-size:clamp(1.75rem,8vw,2.15rem);
+        line-height:1.2;
+    }
+
+    .article-content p,
+    .article-content li{
+        line-height:1.7;
+    }
+
+    .article-content ul{
+        margin:8px 0 28px 20px;
+    }
+
+    .article-highlight,
+    .article-tip,
+    .article-note,
+    .article-summary,
+    .article-conclusion,
+    .article-page blockquote{
+        margin:40px 0;
+        padding:24px 20px;
+        border-radius:20px;
+    }
+
+    .article-page blockquote{
+        font-size:1.15rem;
+        line-height:1.6;
+    }
+}

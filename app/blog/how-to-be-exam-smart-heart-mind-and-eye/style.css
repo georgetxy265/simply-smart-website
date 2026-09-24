@@ -1,0 +1,77 @@
+@import "../how-to-master-psle-science-answering-techniques/style.css";
+
+.exam-smart-article .article-hero{
+    padding:150px 0 70px;
+}
+
+.exam-smart-article .article-image-section{
+    margin-bottom:32px;
+    padding:0;
+}
+
+.exam-smart-article .article-content-section{
+    padding:0 0 100px;
+}
+
+.exam-smart-article .related-articles{
+    padding:0;
+}
+
+.exam-smart-article .article-content > *{
+    margin-bottom:26px;
+}
+
+.exam-smart-article .article-content h2,
+.exam-smart-article .article-content h2:not(:first-child){
+    margin-top:64px;
+    margin-bottom:20px;
+}
+
+.exam-smart-article .article-highlight{
+    margin:42px 0;
+    padding:32px 36px;
+}
+
+.exam-smart-article .article-note{
+    margin:40px 0;
+    padding:30px 34px;
+}
+
+.exam-smart-article .article-summary,
+.exam-smart-article .article-conclusion,
+.exam-smart-article blockquote{
+    margin:48px 0;
+}
+
+@media(max-width:768px){
+    .exam-smart-article .article-hero{
+        padding:120px 0 44px;
+    }
+
+    .exam-smart-article .article-image-section{
+        margin-bottom:22px;
+    }
+
+    .exam-smart-article .article-content-section{
+        padding:0 0 60px;
+    }
+
+    .exam-smart-article .article-content > *{
+        margin-bottom:20px;
+    }
+
+    .exam-smart-article .article-content h2,
+    .exam-smart-article .article-content h2:not(:first-child){
+        margin-top:38px;
+        margin-bottom:16px;
+    }
+
+    .exam-smart-article .article-highlight,
+    .exam-smart-article .article-note,
+    .exam-smart-article .article-summary,
+    .exam-smart-article .article-conclusion,
+    .exam-smart-article blockquote{
+        margin:28px 0;
+        padding:22px 20px;
+    }
+}
