@@ -610,7 +610,7 @@ export default function WhyUs() {
 
                                 Since opening our doors in
                                 2005, Simply Smart Enrichment
-                                has remained committed to
+                                has remained fully committed to
                                 helping students develop
                                 confidence through meaningful
                                 learning.
